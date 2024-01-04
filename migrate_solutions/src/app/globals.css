@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*Componente Header*/
+
+  .header{
+    position: fixed;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.5 s;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #485d4d;    
+    color: white;
+    padding: 15px;
+  }
+  .logo{
+    width: 12%;
+    height: 7%;
+  }
+  .button-container {
+    display: flex;
+    gap: 10px;
+  }
+  .header-button {
+    background-color: transparent;
+    margin-right: 40px; 
+    color: #000000; 
+    border: none;
+    padding: 10px 12px;
+    cursor: pointer;
+  }
+ /*Layout*/
+  .content {
+    margin: 10px;
+    background-color: #32D0CB;
+    opacity: 70%;
+
+  }
+/*Footer*/
+.footer{
+  background-color: white;
+  width: auto;
+  height: auto;
+  padding: 20px;
+
+}
+.logoFooter{
+  display:flex;
+  padding: 20px;
+  margin-left: 3.5%;
+  width: 20%;
+  height: 20%;
+}
