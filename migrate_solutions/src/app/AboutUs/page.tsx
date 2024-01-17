@@ -1,12 +1,11 @@
 import Image from 'next/image'
-import {Footer} from "./components/Footer"
+import {Footer} from "../components/Footer"
 export default function Home() {
   return (
-    <main id='Main' >
-      <h2 className="">Main</h2>
+    <main id='Main'>
+      <h2 className="">About Us</h2>
       <div>
         <div>
-          
         </div>
         <ul>
           <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 

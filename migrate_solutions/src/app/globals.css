@@ -3,21 +3,23 @@
 @tailwind utilities;
 
 /*Componente Header*/
-
   .header{
-    position: fixed;
-    margin: auto;
+    margin: 5%;
+    margin-top: 1%;
     display: flex;
+    border-radius: 20px;
+    background-color: #00375F;
+    color: white;
+    padding: 15px;
+    position: fixed;
+    width: 90%;
     justify-content: space-between;
     transition: 0.5 s;
     box-sizing: border-box;
     top: 0;
     left: 0;
-    width: 100%;
-    background: #485d4d;    
-    color: white;
-    padding: 15px;
   }
+
   .logo{
     width: 12%;
     height: 7%;
@@ -27,32 +29,56 @@
     gap: 10px;
   }
   .header-button {
-    background-color: transparent;
+    background-color: #009CA3;
+    border-radius: 20px;
     margin-right: 40px; 
-    color: #000000; 
+    color: white; 
     border: none;
-    padding: 10px 12px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding: 15px;
     cursor: pointer;
   }
- /*Layout*/
-  .content {
-    margin: 10px;
-    background-color: #32D0CB;
-    opacity: 70%;
+/*Layout*/
+.content {
+  margin: 20px;
+  margin-top: 100px;
+  background-color: white;
+  opacity: 70%;
+}
+/*Main*/
+#Main{
+  margin: 7%;
+  background-color: #009CA3;
+  color: white;
+  border-radius: 20px;
+}
 
-  }
 /*Footer*/
 .footer{
-  background-color: white;
+  background-color: #009CA3;
+  border-top: 2px solid white;
+  margin: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px ;
   width: auto;
   height: auto;
   padding: 20px;
-
+  display: flex;
+  flex-direction: row;
 }
-.logoFooter{
+
+.logosFooter{
+  border: 2px solid red;
   display:flex;
   padding: 20px;
   margin-left: 3.5%;
   width: 20%;
   height: 20%;
+}
+
+.ContactUs{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
 }

@@ -1,23 +1,24 @@
 import "../globals.css";
 import React from 'react';
 
-interface HeaderProps {
+interface FooterProps {
  title: string;
 }
 
-export const Footer: React.FC<HeaderProps> = ({ title }) => {
+export const Footer: React.FC<FooterProps> = ({ title }) => {
   return (
     <div className={`flex ${'footer'}`}>
-      <div className="logoFooter">
-        <img src="images\Logo solo.png" alt="LogoSolo"  className="w-12 h-12"/>
-        <h3 className="ml-5">Sofware Secure. People Secure</h3>
+      <div className="flex flex-col">
+        <h3 className=" ml-5 text-white">Our Social Media:</h3>
+        <div className="flex ml-5">
+          <img src="icons\icono-X.png" alt="X" className="w-10 h-10 mt-3"/>
+          <img src="icons\linkedin 2.png" alt="Linkedin" className="w-10 h-10 ml-2 mt-3"/>
+        </div>
       </div>
-      <div className=" flex ml-40 p-5  w-auto ">
-        <ul className="flex items-center justify-between space-x-10">
-          <li>Facebook</li>
-          <li>Twitter</li>
-          <li>Instagram</li>
-        </ul>
+
+      <div className="ContactUs">
+        <h3 className=" text-white">Contact Us:</h3>
+        <img src="icons\icono-mensaje.png" alt="Mensaje" className="w-14 h-13"/>
       </div>
     </div>
   );
