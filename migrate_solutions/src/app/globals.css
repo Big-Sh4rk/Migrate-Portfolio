@@ -52,6 +52,8 @@
   background-color: #009CA3;
   color: white;
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 /*Footer*/
@@ -81,4 +83,27 @@
   display: flex;
   flex-direction: column;
   margin-left: auto;
+}
+
+/*Componente ServiceTarjet*/
+.ServiceTarjet{
+  margin: 1%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.Tarjet {
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 20px;
+  flex-basis: calc(33.333% - 20px); 
+  padding: 10px;
+  margin: 10px;
+  width: 150px;
+  height: 200px; 
+  box-sizing: border-box;
 }

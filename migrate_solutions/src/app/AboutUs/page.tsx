@@ -3,61 +3,9 @@ import {Footer} from "../components/Footer"
 export default function Home() {
   return (
     <main id='Main'>
-      <h2 className="">About Us</h2>
-      <div>
-        <div>
-        </div>
-        <ul>
-          <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Esse qui quibusdam officiis exercitationem cupiditate quae 
-            nesciunt, similique enim officia id sequi modi earum atque 
-            sed repudiandae, quod corrupti veniam ratione!
-          </li>
-          <br />
-          <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Esse qui quibusdam officiis exercitationem cupiditate quae 
-            nesciunt, similique enim officia id sequi modi earum atque 
-            sed repudiandae, quod corrupti veniam ratione!
-          </li>
-          <br />
-          <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Esse qui quibusdam officiis exercitationem cupiditate quae 
-            nesciunt, similique enim officia id sequi modi earum atque 
-            sed repudiandae, quod corrupti veniam ratione!
-          </li>
-          <br />
-          <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Esse qui quibusdam officiis exercitationem cupiditate quae 
-            nesciunt, similique enim officia id sequi modi earum atque 
-            sed repudiandae, quod corrupti veniam ratione!
-          </li>
-          <br />
-          <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Esse qui quibusdam officiis exercitationem cupiditate quae 
-            nesciunt, similique enim officia id sequi modi earum atque 
-            sed repudiandae, quod corrupti veniam ratione!
-          </li>
-          <br />
-          <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Esse qui quibusdam officiis exercitationem cupiditate quae 
-            nesciunt, similique enim officia id sequi modi earum atque 
-            sed repudiandae, quod corrupti veniam ratione!
-          </li>
-          <br />
-          <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Esse qui quibusdam officiis exercitationem cupiditate quae 
-            nesciunt, similique enim officia id sequi modi earum atque 
-            sed repudiandae, quod corrupti veniam ratione!
-          </li>
-          <br />
-          <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Esse qui quibusdam officiis exercitationem cupiditate quae 
-            nesciunt, similique enim officia id sequi modi earum atque 
-            sed repudiandae, quod corrupti veniam ratione!
-          </li>
-          <br />
-
-        </ul>
+      <div className='flex flex-col m-10'>
+        <p className='py-5 px-10'>At Migrate Solutions, we are more than just a software factory; we are architects of digital transformation. Our journey began with a passion for simplifying the complex process of technology migration. </p>
+        <p className='py-5 px-10'>Today, we stand as experts in seamlessly transitioning businesses to modern technologies while simultaneously offering unparalleled team-building services. Meet the minds behind our success, a team dedicated to innovation, quality, and a client-centric approach. Learn about our commitment to reducing the stress of software development by delivering tailor-made solutions focused on the unique needs of each client.</p>
       </div>
       <Footer title='Footer'/>
     </main>
