@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import {Footer} from "../components/Footer"
-export default function Home() {
+export default function AboutUs() {
   return (
     <main id='Main'>
       <div className='flex flex-col m-10'>

@@ -21,8 +21,8 @@
   }
 
   .logo{
-    width: 12%;
-    height: 7%;
+    width: 20%;
+    height: 10%;
   }
   .button-container {
     display: flex;
@@ -30,14 +30,17 @@
   }
   .header-button {
     background-color: #009CA3;
-    border-radius: 20px;
-    margin-right: 40px; 
+    font-size: 15px;
+    border-radius: 10px;
+    margin-right: 40px;
+    margin-top: 3px; 
     color: white; 
     border: none;
-    padding-top: 2px;
-    padding-bottom: 2px;
     padding: 10px;
+    min-width: 40px;
+    min-height: 10px;
     cursor: pointer;
+    align-items: center;
   }
 /*Layout*/
 .content {
@@ -71,7 +74,6 @@
 }
 
 .logosFooter{
-  border: 2px solid red;
   display:flex;
   padding: 20px;
   margin-left: 3.5%;
@@ -85,27 +87,31 @@
   margin-left: auto;
 }
 
+/*Formulario*/
 .ContactFormulario{
   margin: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 .Formulario{
   border: 5px solid #00375F;
   border-radius: 20px;
   background-color: white;
   color: #000000;
-  margin: 5%;
-  width: 90%;
+  margin: 2.5%;
+  width: 80%;
   height: min-content;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
-
-.Description{
-  height: 100px;
+#Description{
+  width: 50%;
+  height: 150px;
+  box-sizing: border-box;
+  font-size: 16px;
+  resize: none;
 }
 
 .ButtonSend{
@@ -113,11 +119,10 @@
   border-radius: 20px;
   color: white; 
   border: none;
-  padding: 2px;
+  padding: 5px;
   cursor: pointer;
-  margin-left: 45%;
-  margin-bottom: 5px;
-  width: 80px;
+  margin: 20px;
+  width: 150px;
 }
 
 /*Componente ServiceTarjet*/
@@ -130,6 +135,12 @@
   justify-content: center;
   
 }
+.tittleService{
+  border-radius: 5px;
+  background-color: #00375F;
+  padding: 10px;
+  font-size: 20px;
+}
 
 .Tarjet {
   border: 2px solid white;
@@ -140,5 +151,132 @@
   margin: 10px;
   width: 150px;
   height: 200px; 
+  overflow: hidden;
   box-sizing: border-box;
+}
+/*---------------------------------------*/
+@media screen and (max-width: 600px) {
+    .header {
+      margin: 2.5%;
+      width: 95%;
+      height: 20%;
+      background-color: 00375F;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .logo {
+      width: 30%; 
+      height: auto;
+      margin-left: 30%;
+    }
+
+    .button-container {
+      gap: 5px;
+      display: flex;
+      flex-direction: row;
+      margin: 2px;
+      margin-top: 2px; 
+    }
+
+    .header-button {
+      margin-top: 10px;
+      padding-bottom: 20px;
+      font-size: 8px;
+      min-width: 50px;
+      height: 15px;
+      text-align: center;
+      line-height: normal;
+    }
+
+    #world{
+      margin: auto;
+      margin-top: 4px;
+      width: 40px;
+      height: 40px;
+    }
+
+    /* Layout */
+    .content {
+      padding: 2px;
+      margin: 10px;
+      margin-top: 110px;
+    }
+
+    /* Main */
+    #Main {
+      margin: 2%;
+    }
+
+    /* Footer */
+    .footer {      
+      margin: 5px;
+    }
+
+    #Redes{      
+      margin-left: -70;
+      font-size: 10px;
+    }
+    #LogoX{
+      width: 35px;
+      height: 35px;
+    }
+    #LogoLinkedin{
+      width: 35px;
+      height: 35px;
+    }
+    #Contact{
+      font-size: 10px;
+    }
+    #LogoContacUs{
+      margin-left: auto;
+      width: 47px;
+      height: 47px;
+    }
+
+    /* Formulario */
+    .ContactFormulario {
+      margin: 10px;
+    }
+
+    .Formulario {
+      margin: 2%;
+      width: 100%;
+    }
+
+    #Description {
+      width: 80%;
+      font-size: 14px; 
+    }
+
+    .ButtonSend {
+      width: 100px;
+    }
+
+    /* Componente ServiceTarjet */
+    #Service{
+      display: flex;
+      flex-direction: column;
+      height: auto;
+    }
+    #ServiceCards{
+      width: 100%;
+      height: 100%;
+    }
+    #article{
+      width: 100%;
+    }
+    .parrafoArticle{
+    }
+    .ServiceTarjet {
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      min-height: 100px;
+      align-items: center;
+    }
+    .Tarjet {
+      width: 200px;
+      height: 100px;
+    }
 }
