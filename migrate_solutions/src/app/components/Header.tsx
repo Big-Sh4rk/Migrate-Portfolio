@@ -14,10 +14,10 @@ export const Header: React.FC<HeaderProps> = ({ button1, button2, button3 }) => 
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      setWeb(window.innerWidth >= 600);
+      setWeb(window.innerWidth >= 620);
 
       const handleResize = () => {
-        setWeb(window.innerWidth >= 600);
+        setWeb(window.innerWidth >= 620);
       };
 
       window.addEventListener('resize', handleResize);
