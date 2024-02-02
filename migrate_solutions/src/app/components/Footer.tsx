@@ -13,7 +13,9 @@ export const Footer: React.FC<FooterProps> = ({ title }) => {
         <h3 className=" ml-5 text-white">Our Social Media:</h3>
         <div className="flex flex-row items-center justify-center ml-5">
           <img src="icons\icono-X.png" alt="X" id="LogoX"  className="w-10 h-10 mt-3"/>
+          <Link href={'https://www.linkedin.com/company/migrate-solutions/about/'}>
           <img src="icons\linkedin 2.png" alt="Linkedin" id="LogoLinkedin"  className="w-10 h-10 ml-2 mt-3"/>
+          </Link>
         </div>
       </div>
       <div id='Contact' className={`flex flex-col  ${"ContactUs"}`}>

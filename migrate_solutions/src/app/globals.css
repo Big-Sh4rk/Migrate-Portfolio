@@ -155,52 +155,143 @@
   box-sizing: border-box;
 }
 /*---------------------------------------*/
-@media screen and (max-width: 600px) {
-    .header {
-      margin: 2.5%;
+.headerMovil {
+  background-color: transparent;
+  border-radius: 10px;
+  width: 95%;
+  min-height: 25%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  align-items: center;
+}
+.headerMovilElements{
+  border-radius: 10px;
+  width: 100%;
+  background-color: #00375F;
+  display: flex;
+  flex-direction: row;
+  gap: 20%;
+  padding: 5px;
+}
+.menuMovil{
+  background-color: #00375F;
+  border-radius: 5px ;
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+}
+.MenuImg{
+  width: 100%;
+  height: 100%;
+}
+.MenuImgX{
+  margin: 25%;
+  width: 50%;
+  height: 50%;
+}
+
+.logoMovil {
+  min-width: 25%;
+  align-items: center;
+  height: auto;
+}
+#worldMovil{
+  margin-top: 1%;
+  margin-left: auto;
+  width: 40px;
+  height: 40px;
+}
+.MenuMobil{
+  padding: 20px;
+  color: white;
+  background-color: #0e2637;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  position: absolute;
+  top: 60px;
+  left: 22px;
+  
+}
+.MenuButtomMovil{
+  margin: 5px;
+}
+/*---------------------------------------*/
+@media screen and (max-width: 350px) {
+    .headerMovil {
+      background-color: transparent;
+      border-radius: 10px;
       width: 95%;
-      height: 20%;
-      background-color: 00375F;
+      min-height: 25%;
       display: flex;
       flex-direction: column;
+      margin-left: 7px;
+      align-items: center;
     }
-
-    .logo {
-      width: 30%; 
-      height: auto;
-      margin-left: 30%;
-    }
-
-    .button-container {
-      gap: 5px;
+    .headerMovilElements{
+      border-radius: 10px;
+      width: 100%;
+      padding: 5px;
+      background-color: #00375F;
       display: flex;
       flex-direction: row;
-      margin: 2px;
-      margin-top: 2px; 
+      gap: 30px;
+    }
+    .menuMovil{
+      background-color: #00375F;
+      border-radius: 5px ;
+      margin-top: 2.5%;
+      width: 30px;
+      height: 30px;
+    }
+    .MenuImg{
+      width: 100%;
+      height: 100%;
+    }
+    .MenuImgX{
+      margin: 25%;
+      width: 50%;
+      height: 50%;
     }
 
-    .header-button {
-      margin-top: 10px;
-      padding-bottom: 20px;
-      font-size: 8px;
-      min-width: 50px;
-      height: 15px;
-      text-align: center;
-      line-height: normal;
+    .logoMovil {
+  
+      min-width: 25%; 
+      height: auto;
     }
-
-    #world{
-      margin: auto;
-      margin-top: 4px;
-      width: 40px;
-      height: 40px;
+    #worldMovil{
+  
+      margin-top: 2.5%;
+      width: 35px;
+      height: 35px;
     }
-
+    .MenuMobil{
+      padding: 20px;
+      color: white;
+      background-color: #0e2637;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      margin: 0px;
+      position: absolute;
+      top: 68px;
+      left: 22px;
+      
+    }
+    .MenuButtomMovil{
+      margin: 5px;
+    }
+}
+  @media screen and (max-width: 620px) {
     /* Layout */
     .content {
       padding: 2px;
       margin: 10px;
-      margin-top: 110px;
+      margin-top:10px;
     }
 
     /* Main */
@@ -280,3 +371,4 @@
       height: 100px;
     }
 }
+
